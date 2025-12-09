@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Angel Cat Café</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Angel Cat Café</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cats.html">Our Cats</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Contact Us</h2>
+
+    <form>
+        <label>Name:</label><br>
+        <input type="text" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" required><br><br>
+
+        <label>Message:</label><br>
+        <textarea required></textarea><br><br>
+
+        <button type="submit">Send</button>
+    </form>
+
+</main>
+
+<footer>
+    <p>Contact us: <a href="mailto:catcafe@example.com">catcafe@example.com</a></p>
+</footer>
+
+</body>
+</html>
